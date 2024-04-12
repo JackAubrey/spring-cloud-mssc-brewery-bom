@@ -25,7 +25,7 @@
         <name>Spring Framework Guru</name>
     </organization>
     <properties>
-        <project.repo-name>mssc-brewery-bom</project.repo-name>
+        <project.repo-name>spring-cloud-mssc-brewery-bom</project.repo-name>
     </properties>
 
     <developers>
