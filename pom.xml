@@ -95,8 +95,8 @@
         </repository>
     </distributionManagement>
     <scm>
-        <connection>scm:git:git@github.com:JackAubrey/spring-cloud-mssc-brewery-bom.git</connection>
-        <developerConnection>scm:git:git@github.com:JackAubrey/spring-cloud-mssc-brewery-bom.git</developerConnection>
+        <connection>scm:git:git@github.com:JackAubrey/${project.repo-name}</connection>
+        <developerConnection>scm:git:git@github.com:JackAubrey/${project.repo-name}.git</developerConnection>
         <url>https://github.com/JackAubrey/spring-cloud-mssc-brewery-bom</url>
         <tag>HEAD</tag>
     </scm>
