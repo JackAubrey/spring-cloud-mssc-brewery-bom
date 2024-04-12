@@ -10,7 +10,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.1.6-SNAPSHOT</version>
+    <version>1.1.6</version>
 
     <packaging>pom</packaging>
 
@@ -83,4 +83,8 @@
             </snapshots>
         </repository>
     </repositories>
+
+  <scm>
+    <tag>mssc-brewery-bom-1.1.6</tag>
+  </scm>
 </project>
