@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -10,7 +12,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.1.6</version>
+    <version>1.1.5</version>
 
     <packaging>pom</packaging>
 
@@ -84,7 +86,18 @@
         </repository>
     </repositories>
 
-  <scm>
-    <tag>mssc-brewery-bom-1.1.6</tag>
-  </scm>
+    <url>https://github.com/JackAubrey/spring-cloud-mssc-brewery-bom</url>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub JackAubrey Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/JackAubrey/spring-cloud-mssc-brewery-bom</url>
+        </repository>
+    </distributionManagement>
+    <scm>
+        <connection>scm:git:git@github.com:JackAubrey/spring-cloud-mssc-brewery-bom.git</connection>
+        <developerConnection>scm:git:git@github.com:JackAubrey/spring-cloud-mssc-brewery-bom.git</developerConnection>
+        <url>https://github.com/JackAubrey/spring-cloud-mssc-brewery-bom</url>
+        <tag>HEAD</tag>
+    </scm>
 </project>
