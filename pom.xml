@@ -12,7 +12,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>mssc-brewery-bom</artifactId>
-    <version>1.1.5</version>
+    <version>1.1.5-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -91,19 +91,4 @@
             </snapshots>
         </repository>
     </repositories>
-
-    <url>https://github.com/JackAubrey/spring-cloud-mssc-brewery-bom</url>
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub JackAubrey Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/JackAubrey/spring-cloud-mssc-brewery-bom</url>
-        </repository>
-    </distributionManagement>
-    <scm>
-        <connection>scm:git:git@github.com:JackAubrey/${project.repo-name}.git</connection>
-        <developerConnection>scm:git:git@github.com:JackAubrey/${project.repo-name}.git</developerConnection>
-        <url>https://github.com/JackAubrey/spring-cloud-mssc-brewery-bom</url>
-        <tag>HEAD</tag>
-    </scm>
 </project>
